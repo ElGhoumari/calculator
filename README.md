@@ -1,10 +1,15 @@
-# calculator
+# Calculator
 
-## Run calculator
+Projet Python de calculatrice simple permettant d’effectuer des opérations arithmétiques de base
+(addition, soustraction, multiplication, division).
 
-### Sum
+## Description
+Ce projet permet de réaliser des calculs simples en ligne de commande à l’aide d’une application Python.
+Il est accompagné de tests unitaires et d’un rapport de couverture de code.
 
-Example : 
+## Installation des dépendances
 ```bash
-python src/main.py -op sum -val1 1 -val2 2
-```
+python3 -m venv devOps
+source devOps/bin/activate
+pip install -r requirements.txt
+
